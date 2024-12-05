@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendly Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="meeting-info">
+        <h2>Rotimi Akanni</h2>
+        <h3>30 Minute Meeting</h3>
+        <p class="duration">🕒 30 min</p>
+      </div>
+      <div class="cal_container">
+        <div class="calendar">
+          <h3>Select a Date & Time</h3>
+          <div class="month">
+            <button class="nav-button">&lt;</button>
+            <p>December 2024</p>
+            <button class="nav-button">&gt;</button>
+          </div>
+          <div class="weekdays">
+            <div>MON</div>
+            <div>TUE</div>
+            <div>WED</div>
+            <div>THU</div>
+            <div>FRI</div>
+            <div>SAT</div>
+            <div>SUN</div>
+          </div>
+          <div class="days">
+            <!-- Days will be dynamically generated -->
+          </div>
+          <div class="timezone">
+            <p>🌍 Time zone: West Africa Time (20:45)</p>
+          </div>
+        </div>
+        <div class="time-slots-container" style="display: none">
+          <h3>Available Slots</h3>
+          <div class="time-slots"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
